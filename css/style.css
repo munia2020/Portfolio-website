@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125rem;
+    margin: 0 auto; 
+    width: 80%;
+    background-image: url(../images/background3.jpg);
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+span {
+    color: darkslateblue;
+}
+
+
+.section-intro {
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-bottom: 1em;
+    /* background-image: url(../images/background.jpg);
+    background-position: center; */
+}
+
+
+.intro {
+    padding-left: 3em;
+}
+
+.intro-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro,
+.intro-img {
+    width: 50%;
+}
+
+
+
+.button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background: darkslateblue;
+    /* background-image: linear-gradient(darkslateblue, gray); */
+    padding: 10px 40px;
+    border-radius: 5px; 
+}
+
+.button:hover,
+.button:focus {
+    background-color: slategrey;
+}
+
+
+.section-dream {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-top: 5em;
+    
+}
+
+
+.dream-big {
+    padding-left: 4em;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.dream-img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+.dream-big,
+.dream-img {
+    width: 50%;
+}
+
+
+
+.section-exp {
+    margin-top: 5em;
+}
+
+
+.experiences {
+    
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+}
+
+
+
+.web-developer {
+    width: 40%;
+    box-shadow: 10px 10px 60px darkslateblue;
+    padding: 2em;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, darkslateblue);
+    border-image-slice: 1;
+}
+
+.web-developer h3 {
+    color: darkslateblue;
+}
+
+
+.footer {
+    /* margin: 2em 0; */
+    margin-top: 2em;
+    padding: 2em;
+    text-align: center;
+    /* background-image: linear-gradient(white, gray); */
+}
+
+
+
+
+
+
+
+
