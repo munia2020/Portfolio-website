@@ -46,6 +46,7 @@ span {
     text-decoration: none;
     font-weight: 700;
     color: white;
+    width: 10%;
     background: darkslateblue;
     /* background-image: linear-gradient(darkslateblue, gray); */
     padding: 10px 40px;
@@ -110,7 +111,7 @@ span {
     border-image-slice: 1;
 }
 
-.web-developer h3 {
+.web-developer h2 {
     color: darkslateblue;
 }
 
